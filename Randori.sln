@@ -5,6 +5,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kata", "Kata", "{2BD9E174-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator.UnitTests", "Kata\StringCalculator.UnitTests\StringCalculator.UnitTests.csproj", "{AAC3C992-C589-46B4-ACBE-B738ED0D6A1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{85EC5D71-10AC-4BFF-B7DE-E753256DA993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{FE96528F-F30E-480C-9685-B84B31191859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,16 @@ Global
 		{AAC3C992-C589-46B4-ACBE-B738ED0D6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC3C992-C589-46B4-ACBE-B738ED0D6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC3C992-C589-46B4-ACBE-B738ED0D6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE96528F-F30E-480C-9685-B84B31191859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE96528F-F30E-480C-9685-B84B31191859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE96528F-F30E-480C-9685-B84B31191859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE96528F-F30E-480C-9685-B84B31191859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AAC3C992-C589-46B4-ACBE-B738ED0D6A1A} = {2BD9E174-E0C2-46FB-B95A-0CA22DD1A523}
+		{FE96528F-F30E-480C-9685-B84B31191859} = {85EC5D71-10AC-4BFF-B7DE-E753256DA993}
 	EndGlobalSection
 EndGlobal
